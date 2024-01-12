@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	<!-- Title -->
+	<title>Itani VPN Server</title>
+
+	<!-- OG Tags -->
+	<meta property="og:title" content="Itani VPN Server">
+	<meta property="og:image" content="images/og.png">
+	<meta property="og:description" name="description" content="The official site for Itani VPN Server!">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/icon.png">
+	<link rel="apple-touch-icon" type="image/png" href="images/icon.png">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LZSR2JEZED"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-LZSR2JEZED');
+	</script>
+
+</head>
+<body class="is-preload">
+
+	<!-- Wrapper-->
+	<div id="wrapper">
+
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#" class="icon solid fa-home"><span>Home</span></a>
+			<a href="#android" class="icon"><i class="solid fa-brands fa-android"></i><span>Android</span></a>
+			<a href="#apple" class="icon"><i class="solid fa-brands fa-apple"></i><span>Apple</span></a>
+			<a href="#windows" class="icon"><i class="solid fa-brands fa-windows"></i><span>Windows</span></a>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Me -->
+			<article id="home" class="panel intro">
+				<header>
+					<h1>Itani VPN Server</h1>
+					<p>Welcome to our website. Please choose your device from the menu above</p>
+				</header>
+				<a href="#android" class="jumplink pic">
+					<span class="arrow icon solid fa-chevron-right"><span>Choose device</span></span>
+					<img src="images/me.jpg" alt="" />
+				</a>
+			</article>
+
+			<!-- Android -->
+			<article id="android" class="panel">
+				<header>
+					<h2>Android</h2>
+				</header>
+				<p>
+					<b>Automatic Method:</b>
+					<ol>
+						<li>Click on these links to <a href="https://play.google.com/store/apps/details?id=org.strongswan.android&hl=en&gl=US" target="_blank" rel="noopener noreferrer">Download on Android</a> <i class="fa-solid fa-arrow-up-right-from-square izicon"></i> or <a href="https://f-droid.org/en/packages/org.strongswan.android/" target="_blank" rel="noopener noreferrer">Huawei Device</a> <i class="fa-solid fa-arrow-up-right-from-square izicon"></i></li>
+						<li>After the software has been installed via the Play Store, <a href="apps/androidprofile.sswan" download="androidprofile.sswan">Download Android Profile</a> <i class="fa-solid fa-download izicon"></i></li>
+						<li>The Profile will redirect you to the Strongswan Application, and will prompt you to enter your username and password</li>
+						<li>Username: (enter your username)</li>
+						<li>Password: (enter your password)</li>
+						<li>Select "SAVE"</li>
+					</ol>
+
+					<b>Manual Method:</b>
+					<ol>
+						<li>Open the Google Play app.</li>
+						<li>Search for "Strongswan"</li>
+						<li>Select "strongSwan VPN Client", and select "Install"</li>
+						<li>Open the newly installed strongSwan app</li>
+						<li>Select "ADD VPN PROFILE"</li>
+						<li>Enter the following information:</li>
+						<li>Profile Name: VPN Profile</li>
+						<li>Gateway: vpn.itaniconsulting.com</li>
+						<li>Type: (Select "IKEv2 EAP (Username/Password")</li>
+						<li>Username: (enter your username)</li>
+						<li>Password: (enter your password)</li>
+						<li>CA certificate: (check mark "Select automatically")</li>
+						<li>Select "SAVE"</li>
+					</ol>
+
+					<b>Connecting to the VPN IKEv2 VPN on Android:</b>
+					<ol>
+						<li>Open the strongSwan app</li>
+						<li>Select the VPN Profile connection</li>
+					</ol>
+					NOTE: You may be prompted to allow strongSwan to intercept network traffic. To continue, select "I trust this application" and select "OK"
+					<br>
+					You are now connected to the VPN.
+					<br>
+					<br>
+					<b>Disconnecting from the IKEv2 VPN on Android:</b>
+					<ol>
+						<li>Open the strongSwan app</li>
+						<li>Select "Disconnect"</li>
+					</ol>
+					You are now disconnected from the IKEv2 VPN.
+					<br>
+					Note: you can add the quick connect as a widget to connect and disconnect quickly from VPN
+				</p>
+			</article>
+
+			<!-- Apple -->
+			<article id="apple" class="panel">
+				<header>
+					<h2>iPhone</h2>
+				</header>
+				<p>
+					<ol>
+						<li>Download <a href="apps/iPhoneprofile.mobileconfig" download="iPhoneprofile.mobileconfig">iPhone Profile</a> <i class="fa-solid fa-download izicon"></i></li>
+						<li>Allow the file to be downloaded then close</li>
+						<li>Go to Settings</li>
+						<li>Click on the Profile Downloaded</li>
+						<li>Click on Install</li>
+						<li>Put ur phone Passcode</li>
+						<li>Click on Install then Install</li>
+						<li>Enter you VPN username then next</li>
+						<li>Enter you VPN password then next</li>
+						<li>Done</li>
+						<li>Go to settings and enable VPN with the slider</li>
+						<li>Congratulations you are now connected to the VPN</li>
+					</ol>
+				</p>
+			</article>
+
+			<!-- Windows -->
+			<article id="windows" class="panel">
+				<header>
+					<h2>Windows</h2>
+				</header>
+				<p>
+					<ol>
+						<li>Download <a href="apps/winprf.exe" download="winprf.exe">Windows App</a> <i class="fa-solid fa-download izicon"></i></li>
+						<li>Allow the file to be downloaded</li>
+						<li>Open the winprf.exe</li>
+						<li>Click on yes to install</li>
+						<li>Click on ok to proceed</li>
+						<li>Enter you VPN username then next</li>
+						<li>Enter you VPN password then next</li>
+						<li>Done, you can now connect.</li>
+						<li>To Connect again, go to the wifi lan icon in windows</li>
+						<li>Click on VPN and Connect</li>
+						<li>Congratulations you are now connected to the VPN</li>
+					</ol>
+				</p>
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="copy">
+				<li>Itani VPN Server</li>
+				<li><script>new Date().getFullYear()>document.write(new Date().getFullYear());</script></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
